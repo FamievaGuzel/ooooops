@@ -4,3 +4,5 @@ class LittleBell:
 
 bell = LittleBell()
 bell.sound()
+bell.sound()
+bell.sound()
