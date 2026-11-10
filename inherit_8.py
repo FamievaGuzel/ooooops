@@ -24,3 +24,9 @@ print(Summator().sum(10), SquareSummator().sum(10), CubeSummator().sum(10))
 print(Summator().transform(3), SquareSummator().transform(3), CubeSummator().transform(3))
 print(issubclass(SquareSummator, Summator), issubclass(CubeSummator, Summator))
 print('sum' in SquareSummator.__dict__, 'sum' in CubeSummator.__dict__)
+
+# Ваш код
+
+print(Summator().sum(1), SquareSummator().sum(1), CubeSummator().sum(1))
+print(Summator().sum(100), SquareSummator().sum(100), CubeSummator().sum(100))
+
