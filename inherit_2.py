@@ -21,3 +21,11 @@ class Plantae(Eukaryota):
 
 class Animalia(Eukaryota):
     pass
+
+# Ваш код
+
+print(issubclass(Prokaryota, Cellularia), issubclass(Eukaryota, Cellularia))
+print(issubclass(Unicellularia, Eukaryota), issubclass(Fungi, Eukaryota),
+      issubclass(Plantae, Eukaryota), issubclass(Animalia, Eukaryota))
+print(issubclass(Animalia, Cellularia), issubclass(Acellularia, Cellularia),
+      issubclass(Fungi, Prokaryota), issubclass(Eukaryota, Prokaryota))
