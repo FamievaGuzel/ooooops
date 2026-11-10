@@ -35,7 +35,15 @@ class Community(User):
     def info(self):
         return f" Описание: {self.description}"
     
-p = Person("Guzel", "2001-09-25")
-c = Community("Python", "Love Python")
-p.describe()
-c.describe()
+
+# Ваш код
+
+user = User('Аноним')
+person = Person('Иван Иванов', '01.01.2000')
+community = Community('Любители Python', 'Пишем на Python')
+user.describe()
+person.describe()
+community.describe()
+print(isinstance(person, User), isinstance(community, User))
+print(hasattr(person, 'subscribe'), hasattr(community, 'subscribe'))
+print(hasattr(community, 'send_message'), hasattr(community, 'post'))
