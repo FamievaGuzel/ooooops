@@ -27,10 +27,10 @@ class Thing(BaseObject):
 
 
 block = Block(10, 20, 30)
-print(block.get_coordinates()) # [10, 20, 30]
+print(block.get_coordinates()) 
 block.shatter()
-print(block.get_coordinates()) # [None, None, None]
+print(block.get_coordinates())
 
 ent = Entity(1, 2, 3)
 ent.move(4, 5, 6)
-print(ent.get_coordinates()) # [4, 5, 6]
+print(ent.get_coordinates())
