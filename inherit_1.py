@@ -34,3 +34,5 @@ entity.move(10, 11, 12)
 print(entity.get_coordinates())
 print(thing.get_coordinates())
 print(issubclass(Block, BaseObject), issubclass(Entity, BaseObject), issubclass(Thing, BaseObject))
+
+
